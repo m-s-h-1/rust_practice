@@ -14,7 +14,6 @@ fn main(){
             println!("Correct!");
         } else {
             println!("Wrong!");
-            println!("Something");
         }
     }
 }
