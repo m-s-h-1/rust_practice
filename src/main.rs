@@ -2,6 +2,7 @@ use async_std::task;
 use futures::join;
 use std::time::{Instant};
 use rand::Rng;
+use std::io;
 
 fn main() {
     let start_time = Instant::now();
