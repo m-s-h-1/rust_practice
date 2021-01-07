@@ -1,6 +1,9 @@
 fn main() {
-    let n = 5;
-    if n < 2 {
-        println!("This is something!");
+    let mut count = 0;
+    for i in 1..1000 {
+        if i%3 == 0 || i%5 == 0 {
+            count +=i;
+        }
     }
+    println!("{}", count);
 }
