@@ -1,12 +1,9 @@
 [package]
-name = "guessing_game"
+name = "rust_practice"
 version = "0.1.0"
-authors = ["Muhammad Saqib"]
+authors = ["Muhammad Saqib Hussain <saqib9217@live.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-futures = "0.3.1"
-rand = "0.7"
-async-std = { version = "1.2", features = ["attributes"] }
