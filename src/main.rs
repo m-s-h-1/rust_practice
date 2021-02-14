@@ -42,9 +42,7 @@ fn main(){
             ];
             if i == no_of_people {
                 mapped_queue.sort_by(|a, b| b.times.cmp(&a.times));
-                for (key, val) in &mapped_queue {
-                    println!("Key={:?}, Value={:?}", key = i, val=times);
-                }
+                
             }
         }
 
